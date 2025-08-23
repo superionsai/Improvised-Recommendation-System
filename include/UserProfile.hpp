@@ -1,8 +1,4 @@
 
-
-// =============================================================
-// File: include/UserProfile.hpp
-// -------------------------------------------------------------
 #pragma once
 #include <array>
 #include <algorithm>
@@ -42,4 +38,5 @@ public:
     void soft_reset(double factor=0.5) {
         for (auto& x : avg_) x = (1.0 - factor)*x + factor*0.5; // pull towards neutral 0.5
     }
+
 };
