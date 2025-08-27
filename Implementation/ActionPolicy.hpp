@@ -1,7 +1,3 @@
-
-// =============================================================
-// File: include/ActionPolicy.hpp
-// -------------------------------------------------------------
 #pragma once
 #include "Action.hpp"
 
@@ -21,3 +17,4 @@ struct ActionPolicy {
         return 0;
     }
 };
+
