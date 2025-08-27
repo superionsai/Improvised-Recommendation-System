@@ -1,6 +1,3 @@
-// =============================================================
-// File: include/Action.hpp
-// -------------------------------------------------------------
 #pragma once
 #include <string>
 
@@ -28,3 +25,4 @@ inline const char* to_cstr(Action a) {
     }
     return "UNKNOWN";
 }
+
