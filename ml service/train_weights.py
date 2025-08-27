@@ -1,6 +1,3 @@
-// =============================================================
-// File: scripts/train_weights.py (Python)
-// -------------------------------------------------------------
 # NOTE: save this as scripts/train_weights.py
 # Trains RF on joined logs + songs and exports feature_weights.json
 # Run: python3 scripts/train_weights.py
@@ -64,3 +61,4 @@ def train_and_export():
 
 if __name__ == "__main__":
     train_and_export()
+
