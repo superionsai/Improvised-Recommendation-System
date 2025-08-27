@@ -1,6 +1,3 @@
-// =============================================================
-// File: include/PlayerController.hpp
-// -------------------------------------------------------------
 #pragma once
 #include <functional>
 #include "SongRegistry.hpp"
@@ -76,4 +73,5 @@ private:
         // It will regenerate data/feature_weights.json
         std::system("python3 scripts/train_weights.py");
     }
+
 };
