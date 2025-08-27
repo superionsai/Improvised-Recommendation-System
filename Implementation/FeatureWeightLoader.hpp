@@ -1,8 +1,3 @@
-
-
-// =============================================================
-// File: include/FeatureWeightLoader.hpp
-// -------------------------------------------------------------
 #pragma once
 #include <unordered_map>
 #include <string>
@@ -34,4 +29,5 @@ public:
     }
     const std::unordered_map<std::string,double>& weights() const { return w_; }
     bool empty() const { return w_.empty(); }
+
 };
