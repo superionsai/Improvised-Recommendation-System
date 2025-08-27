@@ -1,7 +1,3 @@
-
-// =============================================================
-// File: include/UtilCSV.hpp
-// -------------------------------------------------------------
 #pragma once
 #include <string>
 #include <vector>
@@ -25,4 +21,5 @@ namespace csv {
         out.push_back(cur);
         return out;
     }
+
 }
