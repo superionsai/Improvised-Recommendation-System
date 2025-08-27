@@ -1,6 +1,3 @@
-// =============================================================
-// File: include/SongSplay.hpp
-// -------------------------------------------------------------
 #pragma once
 #include <vector>
 #include <string>
@@ -32,4 +29,5 @@ public:
     void insert(Song* s);
     void promote(Song* s, int delta);
     std::vector<std::string> inorder();
+
 };
